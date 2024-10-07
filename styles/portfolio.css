@@ -29,6 +29,10 @@
   border: none;
 }
 
+.btn-primary i {
+  margin-right: 10px;
+}
+
 .section-title {
   font-size: 35px;
   font-weight: bold;
