@@ -235,15 +235,29 @@ main section {
 }
 
 /* Resume Section */
+.resume .resume-container {
+  margin-top: 113px;
+}
+
 .resume-container {
   display: flex;
   gap: 24px;
 }
 
+.resume-column-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.experience-title {
+  font-size: 25px;
+}
+
 .experience-sub-title {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .experience-sub-title, .experience-description {
@@ -251,11 +265,14 @@ main section {
 }
 
 .resume hr {
-  margin: 30px 5px;
+  margin: 30px 0px;
 }
 
 .resume-download-cv {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer Styles */
@@ -269,13 +286,39 @@ footer {
   width: 50%;
 }
 
+.footer-column p {
+  margin: 20px 0px 30px;
+}
+
+.footer-column .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.footer-column .social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-column form {
+  margin-top: 20px;
+}
+
 footer input[type="text"], footer input[type="email"], footer textarea {
-  height: 64px;
+  height: 28px;
   border-radius: 5px;
   background-color: white;
   display: block;
   width: 100%;
-  padding: 10px 20px;
+  padding: 18px 30px;
   margin-bottom: 24px;
   border: none;
+  color: #757575;
+}
+
+footer textarea {
+  height: 180px;
 }
