@@ -46,6 +46,10 @@ button {
   color: #474747;
 }
 
+.dark-3 {
+  color: #757575;
+}
+
 .btn-primary {
   background-color: #FD6E0A;
   font-weight: bold;
@@ -191,6 +195,10 @@ main section {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
+}
+
+.about .section-description {
+  margin: 30px 0px;
 }
 
 .about-items {
