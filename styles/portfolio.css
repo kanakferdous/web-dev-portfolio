@@ -1,3 +1,30 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #181818;
+}
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -23,14 +50,29 @@
   background-color: #FD6E0A;
   font-weight: bold;
   font-size: 20px;
+  line-height: 1.5;
   color: white;
   padding: 18px 35px;
   border-radius: 5px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.btn-primary i {
-  margin-right: 10px;
+.btn-secondary {
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FD6E0A;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: 1px solid #FD6E0A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .section-title {
@@ -52,7 +94,7 @@
 .header {
   background-image: url('../images/developer.png'), url('../images/header_bg.png');
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 23px center, bottom right;
 }
 
 /* Nav Styles */
@@ -61,16 +103,21 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0px 230px 0px 226px;
+  padding: 50px 0px;
 }
 
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 nav ul {
   display: flex;
   align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav ul li {
@@ -78,14 +125,23 @@ nav ul li {
   margin-right: 50px;
 }
 
+nav ul li:last-child {
+  margin-right: 0px;
+}
+
 nav li a {
   text-decoration: none;
   font-size: 20px;
 }
 
+nav li a:hover {
+  color: #FD6E0A;
+}
+
 /* Banner Styles */
 .banner {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 0 35px 0 230px;
 }
@@ -104,8 +160,19 @@ nav li a {
   font-size: 85px;
 }
 
+.banner-description {
+  margin: 20px 0px 30px;
+}
+
 .banner-profile-pic {
   width: 580px;
+}
+
+.banner-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
 }
 
 /* Main Styles */
