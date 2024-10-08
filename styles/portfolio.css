@@ -390,3 +390,141 @@ footer textarea {
     width: calc(100% - 60px);
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .skills-container {
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: calc(50% - 72px);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .btn-primary, .btn-secondary {
+    line-height: 1;
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+
+  .banner-greetings {
+    font-size: 24px;
+  }
+
+  .banner-title {
+    font-size: 35px;
+  }
+
+  .banner-description {
+    margin: 15px 0px;
+  }
+
+  .resume-column-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .experience-title {
+    font-size: 18px;
+  }
+
+  .experience-sub-title {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-profile-pic {
+    width: 60%;
+  }
+
+  .banner-buttons {
+    justify-content: center;
+  }
+
+  footer {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-title {
+    font-size: 25px;
+  }
+
+  nav li a {
+    font-size: 18px;
+  }
+
+  .about {
+    padding: 15px;
+  }
+
+  .about-items {
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+
+  .about-item {
+    width: 50%;
+  }
+
+  .skills .section-title {
+    margin: 0px 15px;
+  }
+
+  .skills .section-description {
+    margin: 20px 15px;
+  }
+
+  .skills-container {
+    column-gap: 0px;
+    row-gap: 20px;
+  }
+
+  .skill {
+    width: 100%;
+  }
+
+  main section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .resume .resume-container {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .footer-column p {
+    text-align: center;
+  }
+
+  .footer-column .social-icons {
+    justify-content: center;
+  }
+}
